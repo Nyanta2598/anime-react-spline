@@ -1,4 +1,4 @@
 # anime-react-spline
  
 # Sample screenshots
-![Alt text](/relative/path/to/sadsad.jpg?raw=true "Optional Title")
+![alt text](https://github.com/Nyanta2598/anime-react-spline/blob/main/image.jpg?raw=true)
