@@ -33,14 +33,18 @@ const Wrapper = styled.div`
   font-family: "Roboto";
   font-size: 16px;
   color: #7CB9E8;
+
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
   .spline{
     position: absolute;
     margin: 0;
-    top: 0;
+    top: 10%;
     right: 0;
+    left: 0;
+    bottom: 0;
+
   }
 `;
 
