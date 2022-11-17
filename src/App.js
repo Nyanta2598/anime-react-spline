@@ -7,6 +7,7 @@ import nichi3 from './assets/nichi3.png';
 export default function App() {
   return (
     <Wrapper>
+  
       <Spline className='spline' scene="https://prod.spline.design/sw6IJzwBFV0tukJy/scene.splinecode" />
       <Content>
         <h1 className='hello font-link'>Mio Naganohara</h1>
@@ -33,18 +34,13 @@ const Wrapper = styled.div`
   font-family: "Roboto";
   font-size: 16px;
   color: #7CB9E8;
-
+  position: relative;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
   .spline{
-    position: absolute;
-    margin: 0;
-    top: 10%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-
+    min-height: 661px;
+    display: inline-block;
   }
 `;
 
